@@ -9,12 +9,14 @@
         <module name="eureka-serer" />
         <module name="service01" />
         <module name="service02" />
+        <module name="gateway-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-serer" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
       <module name="service01" options="-parameters" />
       <module name="service02" options="-parameters" />
     </option>
